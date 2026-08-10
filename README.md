@@ -1,7 +1,7 @@
 # Kovarthanam Muthusamy
 
 **Machine Learning Research Engineer | Engineering Systems**  
-Dortmund, Germany | Open to full-time Machine Learning, Industrial ML, Engineering AI, and Robotics roles
+Dortmund, Germany | Open to full-time Machine Learning, Industrial ML, Deep Learning, and Robotics roles
 
 I build machine-learning systems for physical engineering problems, from simulation-data pipelines and multimodal graph models to active-learning evaluation, retrieval-augmented engineering assistants, and tested inference applications. My work combines TU Dortmund research in PCB power integrity with earlier industrial experience in robotic welding and mechanical design.
 
@@ -18,7 +18,7 @@ I build machine-learning systems for physical engineering problems, from simulat
 
 - Built a LangChain ReAct orchestrator that routes engineering requests across domain-model, RAG, simulation, and vision tools.
 - Implemented ChromaDB retrieval, Sentence-BERT parameter extraction, LoRA domain adaptation, and Windows eCADSTAR automation.
-- Retained 78 simulation databases and 78 execution logs as engineering workflow evidence; the public repository documents platform and clean-clone limitations.
+- Integrated an eCADSTAR simulation interface and documented its Windows-only execution boundary; proprietary CAD outputs, local databases, credentials, model weights, and third-party corpora are intentionally excluded from the public repository.
 
 ### [Finance Agent](https://github.com/kovarthanmuthusamy/Finance_agent)
 
@@ -38,4 +38,3 @@ I build machine-learning systems for physical engineering problems, from simulat
 
 - [LinkedIn](https://linkedin.com/in/kovarthanam-muthusamy-4a8107253)
 - [Email](mailto:kovarthanmuthusamy@gmail.com)
-
