@@ -5,7 +5,7 @@ Dortmund, Germany | Open to full-time Machine Learning, Industrial ML, Deep Lear
 
 I build machine-learning systems for physical engineering problems, from simulation-data pipelines and multimodal graph models to active-learning evaluation, retrieval-augmented engineering assistants, and tested inference applications. My work combines TU Dortmund research in PCB power integrity with earlier industrial experience in robotic welding and mechanical design.
 
-## Selected work
+## Research & Projects
 
 ### Deep-learning surrogate for PCB power-delivery-network optimisation
 
