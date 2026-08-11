@@ -1,106 +1,108 @@
 # Kovarthanam Muthusamy
 
-### Machine Learning Research Engineer · Industrial AI · Engineering Systems
+**Machine Learning Research Engineer | Industrial AI | Engineering Systems**
 
-📍 Dortmund, Germany · 🇩🇪
-🎯 Open to full-time opportunities in **Machine Learning · Industrial AI · Deep Learning · Robotics**
+Dortmund, Germany · Open to full-time opportunities in **Applied Machine Learning, Industrial AI, Deep Learning, Engineering Simulation, and Robotics**
 
-I build **machine-learning systems for physical engineering problems**, combining deep learning, simulation data, multimodal representation learning, active learning, and LLM-based engineering automation.
+I develop **machine-learning methods and software systems for engineering applications**, with a focus on simulation-driven learning, surrogate modelling, multimodal representation learning, optimisation, and intelligent engineering automation.
 
-My research focuses on **AI-driven engineering design and optimisation**, with current work on PCB Power Delivery Networks (PDNs), surrogate modelling, latent-space optimisation, and simulation-guided learning. My broader engineering background includes **robotic welding, mechanical design, and industrial automation**.
+My current research at **TU Dortmund University** focuses on generative and surrogate modelling for **PCB Power Delivery Network (PDN) design optimisation**, combining simulation data, deep learning, active learning, and latent-space optimisation.
+
+My engineering background additionally includes **robotic welding, mechanical design, industrial automation, and CAD-based engineering workflows**.
 
 ---
 
-## 🔬 Research & Selected Projects
+## Research & Engineering Projects
 
-### ⚡ Deep Learning Surrogate for PCB Power Delivery Network Optimisation
+### PCB Power Delivery Network Optimisation
 
-**Research focus:** Multimodal generative modelling · Surrogate modelling · Active learning · Latent-space optimisation
+**Applied Machine Learning · Surrogate Modelling · Generative AI · Active Learning · Engineering Simulation**
 
-* Developed a **PyTorch multimodal Product-of-Experts VAE** representing:
+Research project focused on developing a learning-based framework for simulation-efficient optimisation of PCB Power Delivery Networks.
+
+* Developed a **PyTorch-based multimodal Product-of-Experts Variational Autoencoder (PoE-VAE)** for joint representation of:
 
   * 52-slot PCB capacitor layouts
   * 231-bin impedance spectra
   * 64 × 64 spatial field maps
-* Built the simulation-data pipeline including **simulation export, per-frequency normalisation, and split-by-design evaluation**.
-* Training dataset contains **29,499 layouts and 688,477 layout-frequency records**.
-* Implemented and evaluated a **residual-GP active-learning loop** for targeted surrogate refinement.
-* Across 248 off-anchor cases:
+* Designed simulation-data processing pipelines covering **simulation export, frequency-wise normalisation, dataset construction, and split-by-design evaluation**.
+* Built the training dataset from **29,499 PCB layouts and 688,477 layout-frequency records**.
+* Developed an **active-learning framework based on residual Gaussian Processes (GPs)** to identify high-error regions for targeted surrogate refinement.
+* Evaluated the approach on **248 off-anchor cases**:
 
-  * p99 MAE improved from **9.3628 → 8.8432**
-  * Equal-budget GP acquisition achieved a **2.16× top-80 residual lift** over random acquisition.
-* The active-learning results demonstrate improved identification of high-error regions for surrogate refinement.
-* **Inverse-design candidates remain subject to physics/simulation solver verification.**
+  * p99 MAE: **9.3628 → 8.8432**
+  * **2.16× top-80 residual lift** compared with random acquisition at equal acquisition budget.
+* The methodology targets **simulation-efficient engineering optimisation** by combining learned surrogate representations with targeted data acquisition.
+* Generated inverse-design candidates are subsequently subject to **physics-based solver verification**.
 
-> **Research direction:** Generative surrogate modelling → latent-space optimisation → simulation-verified engineering design.
-
----
-
-### 🤖 [Multi-Agent LLM Assistant for PCB Design CAD](https://github.com/kovarthanmuthusamy/pcb-cad-llm-assistant)
-
-**Engineering focus:** LLM agents · RAG · CAD automation · Engineering tool orchestration
-
-* Developed a **LangChain ReAct multi-agent orchestration system** for PCB engineering workflows.
-* Routes engineering requests across:
-
-  * Domain models
-  * Retrieval-augmented generation
-  * Simulation tools
-  * Computer-vision tools
-* Implemented **ChromaDB retrieval, Sentence-BERT parameter extraction, and LoRA domain adaptation**.
-* Integrated Windows-based **eCADSTAR automation and simulation workflows**.
-* Documented the Windows-only execution boundary and separated proprietary engineering assets from the public repository.
-* Proprietary CAD outputs, local databases, credentials, model weights, and third-party corpora are intentionally excluded.
+**Key methods:** PyTorch · VAE · Multimodal Learning · Surrogate Modelling · Gaussian Processes · Active Learning · Latent-Space Optimisation · Power Integrity Simulation
 
 ---
 
-### 💶 [Finance Agent](https://github.com/kovarthanmuthusamy/Finance_agent)
+### [Multi-Agent LLM Assistant for PCB CAD](https://github.com/kovarthanmuthusamy/pcb-cad-llm-assistant)
 
-**Engineering focus:** Local-first AI applications · Data engineering · Forecasting · Software quality
+**Engineering AI · CAD Automation · Retrieval-Augmented Generation · Tool Integration**
 
-* Developed a **local-first Streamlit financial analytics application** for Sparkasse CSV/FinTS data.
-* Implemented:
+Developed a software framework for integrating language models with PCB engineering tools and domain-specific information sources.
 
-  * Transaction ingestion and deduplication
-  * Budget management
-  * Recurrence detection
-  * Probabilistic forecasting
-  * Scenario analysis
-  * Monte Carlo reserve-risk estimation
-* Built around **SQLite, SQLAlchemy, Alembic, Pydantic, keyring, and Plotly**.
-* Uses **exact integer-cent persistence** for financial calculations.
-* Forecasting methods are evaluated using **rolling backtests** rather than relying on a single model.
-* Verified through **57 automated tests**, Ruff, and GitHub Actions.
+* Implemented a **LangChain ReAct orchestration layer** for routing engineering tasks across domain models, retrieval, simulation, and vision components.
+* Developed retrieval pipelines using **ChromaDB and Sentence-BERT-based semantic representations**.
+* Applied **LoRA-based domain adaptation** for engineering-specific language-model workflows.
+* Integrated Windows-based **eCADSTAR automation and simulation interfaces**.
+* Designed explicit interfaces between LLM reasoning, engineering tools, and simulation workflows.
+* Documented system boundaries and reproducibility constraints for proprietary engineering software.
+* Proprietary CAD outputs, credentials, local databases, model weights, and third-party corpora are intentionally excluded from the public repository.
+
+**Key technologies:** Python · LangChain · RAG · ChromaDB · Sentence-BERT · LoRA · eCADSTAR · CAD Automation
 
 ---
 
-## 🧠 Technical Stack
+### [Finance Agent](https://github.com/kovarthanmuthusamy/Finance_agent)
 
-### Machine Learning & Scientific Computing
+**Software Engineering · Data Engineering · Forecasting · Quality Assurance**
+
+A local-first financial data application designed with an emphasis on **data integrity, reproducibility, automated testing, and maintainable software architecture**.
+
+* Developed ingestion pipelines for Sparkasse CSV/FinTS transaction data.
+* Implemented transaction deduplication, budgeting, recurrence detection, and financial forecasting.
+* Built the persistence layer using **SQLite, SQLAlchemy, and Alembic**.
+* Used **Pydantic** for structured validation and **keyring** for credential handling.
+* Implemented exact **integer-cent persistence** for financial calculations.
+* Evaluated forecasting approaches through **rolling backtests**.
+* Added scenario analysis and Monte Carlo-based reserve-risk estimation.
+* Maintained automated quality checks using **57 tests, Ruff, and GitHub Actions**.
+
+**Key technologies:** Python · SQLite · SQLAlchemy · Alembic · Pydantic · Streamlit · Plotly · pytest · Ruff · GitHub Actions
+
+---
+
+## Technical Expertise
+
+### Machine Learning & AI
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,numpy,pandas,matlab" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,numpy,pandas" />
 </p>
 
-**Python · PyTorch · CUDA · NCCL/DDP · Graph Neural Networks · VAEs · FiLM · Active Learning · NumPy · pandas**
+**Python · PyTorch · CUDA · NCCL/DDP · Deep Learning · Variational Autoencoders · Graph Neural Networks · Multimodal Learning · FiLM · Active Learning · Surrogate Modelling**
 
-### LLM & AI Systems
+### Engineering AI & LLM Systems
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,docker,fastapi" />
 </p>
 
-**LangChain · ReAct · RAG · ChromaDB · LoRA · Sentence-BERT · Tool Orchestration · Agentic AI**
+**LangChain · ReAct · Retrieval-Augmented Generation · ChromaDB · LoRA · Sentence-BERT · Tool Integration · Engineering Automation**
 
-### Software Engineering & Deployment
+### Software Engineering
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,docker,fastapi,pytest" />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,docker,fastapi" />
 </p>
 
-**FastAPI · Pydantic · Docker · pytest · Ruff · GitHub Actions · Linux**
+**FastAPI · Pydantic · Docker · pytest · Ruff · GitHub Actions · Git · Linux · CI/CD**
 
-### Data & Applications
+### Data Engineering & Applications
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=sqlite,postgres,python" />
@@ -108,79 +110,56 @@ My research focuses on **AI-driven engineering design and optimisation**, with c
 
 **SQLite · SQLAlchemy · Alembic · pandas · NumPy · Streamlit · Plotly**
 
-### Engineering & Simulation
+### Engineering Software
 
-**eCADSTAR · ABB RobotStudio · SolidWorks · PCB Power Integrity · Simulation Data Pipelines · Mechanical Design · Robotic Welding**
-
----
-
-## 🧪 Research Interests
-
-```text
-Machine Learning for Engineering
-├── Generative Models
-│   ├── Variational Autoencoders
-│   ├── Multimodal Representation Learning
-│   └── Latent-Space Optimisation
-│
-├── Engineering Surrogate Models
-│   ├── Physics-informed Learning
-│   ├── Simulation-based Learning
-│   └── Active Learning
-│
-├── Industrial AI
-│   ├── Engineering Agents
-│   ├── RAG Systems
-│   └── CAD / Simulation Automation
-│
-└── Intelligent Engineering Design
-    ├── PCB Power Delivery Networks
-    ├── Design Optimisation
-    └── Simulation-verified AI
-```
+**eCADSTAR · ABB RobotStudio · SolidWorks · PCB Power Integrity · Engineering Simulation · CAD Automation · Robotic Welding · Mechanical Design**
 
 ---
 
-## 📊 Engineering Approach
+## Research Interests
 
-I focus on building systems where **machine-learning performance is connected to engineering validity**.
-
-**Simulation / Engineering Data**
-↓
-**Multimodal Representation Learning**
-↓
-**Generative / Surrogate Model**
-↓
-**Active Learning & Error Discovery**
-↓
-**Latent-Space Optimisation**
-↓
-**Candidate Design Generation**
-↓
-**Physics / Solver Verification**
-
-The objective is not simply to build a high-performing ML model, but to develop **reproducible, testable, and engineering-grounded ML systems**.
+* **Applied Machine Learning for Engineering**
+* **Industrial AI and Engineering Automation**
+* **Simulation-driven Machine Learning**
+* **Surrogate Modelling and Reduced-Order Learning**
+* **Multimodal Representation Learning**
+* **Generative Models for Engineering Design**
+* **Active Learning and Data-Efficient Simulation**
+* **Latent-Space Optimisation**
+* **Physics-informed and Physics-constrained Learning**
+* **CAD / Simulation Tool Integration**
+* **Machine Learning for Electronics and Manufacturing**
 
 ---
 
-## 📌 Current Focus
+## Engineering & Research Workflow
 
-* 🧠 Generative AI for engineering design
-* ⚡ PCB Power Delivery Network optimisation
-* 🔬 Multimodal surrogate modelling
-* 🎯 Active learning for simulation-efficient training
-* 🧩 Latent-space optimisation
-* 🤖 Agentic AI for engineering workflows
-* 🏭 Industrial machine learning and automation
-* 🧪 Simulation-verified AI systems
+My work focuses on connecting **machine-learning methods with engineering simulation and validation**:
+
+**Engineering Problem**
+→ **Simulation & Experimental Data**
+→ **Data Engineering & Representation Learning**
+→ **Surrogate / Generative Model**
+→ **Active Learning**
+→ **Optimisation**
+→ **Candidate Design Generation**
+→ **Physics-Based Verification**
+
+The emphasis is on developing **reproducible, testable, and engineering-valid ML systems**, rather than treating model performance as the sole objective.
 
 ---
 
-## 📫 Connect
+## Professional Focus
+
+**Applied Machine Learning · Industrial AI · Engineering Simulation · Digital Engineering · Deep Learning · Surrogate Modelling · Engineering Optimisation · Robotics · CAD Automation**
+
+---
+
+## Connect
 
 <p align="left">
   <a href="https://linkedin.com/in/kovarthanam-muthusamy-4a8107253">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Professional%20Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:kovarthanmuthusamy@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
@@ -190,5 +169,5 @@ The objective is not simply to build a high-performing ML model, but to develop 
 ---
 
 <p align="center">
-  <i>Building machine learning systems for real engineering problems.</i>
+  <sub>Machine Learning · Engineering Simulation · Industrial AI</sub>
 </p>
