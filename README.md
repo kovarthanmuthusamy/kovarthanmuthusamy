@@ -43,7 +43,7 @@ Research project focused on developing a learning-based framework for simulation
 
 **Engineering AI · CAD Automation · Retrieval-Augmented Generation · Tool Integration**
 
-Developed a software framework for integrating language models with PCB engineering tools and domain-specific information sources.
+Team research project at TU Dortmund: a framework that connects language models with PCB engineering tools and domain-specific information sources. I owned the LangChain orchestration, the RAG sub-agent, and the integration with eCADSTAR (Zuken's PCB design suite).
 
 * Implemented a **LangChain ReAct orchestration layer** for routing engineering tasks across domain models, retrieval, simulation, and vision components.
 * Developed retrieval pipelines using **ChromaDB and Sentence-BERT-based semantic representations**.
@@ -70,7 +70,7 @@ A local-first financial data application designed with an emphasis on **data int
 * Implemented exact **integer-cent persistence** for financial calculations.
 * Evaluated forecasting approaches through **rolling backtests**.
 * Added scenario analysis and Monte Carlo-based reserve-risk estimation.
-* Maintained automated quality checks using **57 tests, Ruff, and GitHub Actions**.
+* Maintained automated quality checks using **31 tests, Ruff, and GitHub Actions**.
 
 **Key technologies:** Python · SQLite · SQLAlchemy · Alembic · Pydantic · Streamlit · Plotly · pytest · Ruff · GitHub Actions
 
@@ -105,7 +105,7 @@ A local-first financial data application designed with an emphasis on **data int
 ### Data Engineering & Applications
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=sqlite,postgres,python" />
+  <img src="https://skillicons.dev/icons?i=sqlite,python" />
 </p>
 
 **SQLite · SQLAlchemy · Alembic · pandas · NumPy · Streamlit · Plotly**
