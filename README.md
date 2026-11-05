@@ -55,7 +55,7 @@ the results. I built the agent logic and most of the backend.
 
 `LangChain` `RAG` `ChromaDB` `LoRA` `Ollama` `Pydantic`
 
-### 🚗 [Camera + LiDAR Perception Service](https://github.com/kovarthanmuthusamy/Sensor-fusion)
+### 🚗 [Camera + LiDAR Perception Service](https://github.com/kovarthanmuthusamy/sensor-fusion)
 
 Spots cars and people and tells how far away they are, from a camera and LiDAR.
 
@@ -66,7 +66,7 @@ Spots cars and people and tells how far away they are, from a camera and LiDAR.
 
 `PyTorch` `ONNX Runtime` `FastAPI` `Docker` `Prometheus` `Claude Code`
 
-### 💶 [Finance Agent](https://github.com/kovarthanmuthusamy/Finance_agent) — private budgeting and forecasts
+### 💶 [Finance Agent](https://github.com/kovarthanmuthusamy/finance-agent) — private budgeting and forecasts
 
 Turns bank statements into budgets and cash-flow forecasts. All data stays on the user's computer.
 
