@@ -1,41 +1,56 @@
 ![cover](cover.png)
 
-<h1 align="center">Hi, I'm Kovarthanam 👋</h1>
-<h3 align="center">ML Software Engineer · Agentic AI Systems</h3>
+<h1 align="center">Kovarthanam Muthusamy</h1>
+<h3 align="center">AI/ML Software Engineer — I solve companies' AI problems</h3>
 
 <p align="center">
-I build ML systems end to end — from simulation data and deep generative models to tested APIs,
-containers and CI — and LLM agents that use real engineering tools.
+I help companies put AI to work — not as demos, but as software that runs in production. Most teams I work
+with have the same problem: data and ideas for AI, but no reliable way to turn them into a system customers
+can use. I build that bridge — from first prototype to a product running in production.
 </p>
 
 <p align="center">
-📍 Dortmund, Germany · 🎓 M.Sc. Automation and Robotics, TU Dortmund (2026) · 💼 Open to ML / AI engineering roles
+📍 Dortmund, Germany · 🎓 M.Sc. Automation and Robotics, TU Dortmund (2027) · ✉️ kovarthanmuthusamy@gmail.com
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/kovarthanam-muthusamy-4a8107253"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:kovarthanmuthusamy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/kovarthanmuthusamy/pdn-genai-optimization"><img src="https://img.shields.io/badge/Flagship-PDN_Design_Assistant-181717?style=for-the-badge&logo=github&logoColor=white" alt="Flagship project"></a>
+  <a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://img.shields.io/badge/Flagship-PDN_Design_Assistant-181717?style=for-the-badge&logo=github&logoColor=white" alt="Flagship project"></a>
 </p>
 
 ---
 
-## What I work on
+## What I solve for companies
 
-- **ML systems, not just models.** Data pipelines, multi-GPU training, typed REST APIs, Docker images, CI and
-  experiment tracking around the model, so that it can be run, tested and shipped by someone else.
-- **Agentic AI.** LLM agents that plan, call tools and hand results back to each other, and agent workflows
-  that I use to build software and research faster without giving up control over correctness.
-- **Engineering domains.** Simulation-driven learning for electronics (PCB power and signal integrity), on top
-  of a background in robotics and mechanical design.
+- **LLM applications and agents that handle real tasks end to end.** Multi-agent assistants with an
+  orchestrator, RAG, LoRA fine-tuning and typed, validated tool calling — built to work in the real world,
+  not just in a notebook.
+- **RAG systems — retrieval, grounding and evaluation, not just a chatbot.** Document search and domain
+  knowledge your team can trust, with evaluation so you know what it gets right and what it doesn't.
+- **Model inference and deployment.** APIs, Docker, CI/CD and cloud infrastructure, so a model becomes a
+  tested, reproducible service instead of a script on someone's laptop.
+- **MLOps that keeps systems reliable.** Pipelines, monitoring and retraining, so the system you ship keeps
+  working after it ships.
+- **Engineering domains.** Simulation-driven learning for electronics (PCB power and signal integrity), on
+  top of a background in robotics and mechanical design.
+
+## Proof, not promises
+
+- **IEEE paper** on generative AI for engineering design (2026 Kleinheubach Conference).
+- **End-to-end generative AI platform** shipped as production software — predicts a board's power behaviour
+  in milliseconds instead of a 12-second simulation.
+- **Self-healing Kubernetes agent** that diagnosed a live failure and proposed the fix in **37 s for $0.04**.
+
+If your team has an AI problem worth solving, let's talk.
 
 ## Featured projects
 
-### 🔌 [PDN Design Assistant](https://github.com/kovarthanmuthusamy/pdn-genai-optimization) — AI for circuit-board power design
+### 🔌 [PDN Design Assistant](https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis) — AI for circuit-board power design
 
-<a href="https://github.com/kovarthanmuthusamy/pdn-genai-optimization"><img src="https://raw.githubusercontent.com/kovarthanmuthusamy/pdn-genai-optimization/main/docs/images/assistant-design-view.png" width="760" alt="PDN design assistant: board, predicted impedance spectrum and impedance map"></a>
+<a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://raw.githubusercontent.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis/main/docs/images/assistant-design-view.png" width="760" alt="PDN design assistant: board, predicted impedance spectrum and impedance map"></a>
 
-My master's thesis. An AI model that predicts how a board's power supply behaves in milliseconds instead of a
+An AI model that predicts how a board's power supply behaves in milliseconds instead of a
 12-second simulation, plus a web app that suggests better designs. Published at the [2026 Kleinheubach Conference (IEEE)](https://doi.org/10.23919/IEEECONF72572.2026.11743273).
 
 - Trained on **30,000 simulated layouts**; typical error **2.9 %**
@@ -46,7 +61,7 @@ My master's thesis. An AI model that predicts how a board's power supply behaves
 
 `PyTorch` `DDP` `VAE` `FastAPI` `Docker` `GitHub Actions` `MLflow` `Azure ML`
 
-### 🤖 [Multi-Agent AI Assistant for Circuit Design](https://github.com/kovarthanmuthusamy/pcb-cad-llm-assistant)
+### 🤖 [Multi-Agent AI Assistant for Circuit Design](https://github.com/kovarthanmuthusamy/AI-assistant-system-for-ECAD-software)
 
 Team project (8 people). Answers circuit-design questions, runs simulations from plain English and explains
 the results. I built the agent logic and most of the backend.
@@ -79,13 +94,15 @@ Turns bank statements into budgets and cash-flow forecasts. All data stays on th
 
 `Python` `Streamlit` `SQLAlchemy` `Alembic` `pytest`
 
-### 🩺 [KubeMedic](https://github.com/kovarthanmuthusamy/kubmedic) — AI agent that fixes broken cloud apps *(in progress)*
+### 🩺 [KubeMedic](https://github.com/kovarthanmuthusamy/kubmedic) — AI agent that fixes broken cloud apps
 
 Finds why a Kubernetes app broke and proposes the fix as a pull request for a human to approve.
 
-- Done: local Kubernetes cluster and local AI models on two GPUs, set up reproducibly
-- Next: the agent, monitoring, and a benchmark of 10–12 real failure cases
+- **Live demo (Nov 2026):** diagnosed a bad image tag (ImagePullBackOff) in a live cluster and proposed
+  the fix in **37 s for $0.04** — [demo report](https://github.com/kovarthanmuthusamy/kubmedic/blob/main/evals/results/2026-11-21-frontend-bad-image-tag/KubMedic-Demo-Report.pdf)
+- Built with LangGraph (triage → investigate → plan), MCP tools and Langfuse traces
 - Safe by design: the agent can only read; every fix needs human approval
+- Platform: local Kubernetes cluster and local AI models on two GPUs, set up reproducibly
 
 `Kubernetes` `Ollama` `LangGraph` `MCP` `ArgoCD`
 
@@ -119,4 +136,4 @@ tools · MLOps for research code
 
 ---
 
-<p align="center"><sub>ML systems · Agentic AI · Engineering simulation</sub></p>
+<p align="center"><sub>AI/ML systems · Agentic AI · MLOps — built to solve your problem, not to sit in a notebook</sub></p>
