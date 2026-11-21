@@ -40,8 +40,9 @@ My master's thesis. An AI model that predicts how a board's power supply behaves
 - Checks **≈ 25,000 layouts per second** vs ≈ 12 s per layout in the simulator
 - Finds designs with the fewest components; **87–98 %** of proposals pass a real simulation
 - Web app + API, Docker, CI, MLflow, 116 automated tests
+- Model inference built for Azure ML (managed online endpoint, CPU)
 
-`PyTorch` `DDP` `VAE` `FastAPI` `Docker` `GitHub Actions` `MLflow`
+`PyTorch` `DDP` `VAE` `FastAPI` `Docker` `GitHub Actions` `MLflow` `Azure ML`
 
 ### 🤖 [Multi-Agent AI Assistant for Circuit Design](https://github.com/kovarthanmuthusamy/pcb-cad-llm-assistant)
 
