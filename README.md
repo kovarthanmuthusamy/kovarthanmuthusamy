@@ -48,7 +48,7 @@ If your team has an AI problem worth solving, let's talk.
 
 ### 🔌 [Generative AI System for Engineering Analysis](https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis) — AI for circuit-board power design
 
-<a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://raw.githubusercontent.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis/main/docs/images/assistant-design-view.png" width="760" alt="PDN design assistant: board, predicted impedance spectrum and impedance map"></a>
+<a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://raw.githubusercontent.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis/main/docs/images/assistant-design-view.png" width="760" alt="Generative AI System for Engineering Analysis: board, predicted impedance spectrum and impedance map"></a>
 
 An AI model that predicts how a board's power supply behaves in milliseconds instead of a
 12-second simulation, plus a web app that suggests better designs. Published at the [2026 Kleinheubach Conference (IEEE)](https://doi.org/10.23919/IEEECONF72572.2026.11743273).
