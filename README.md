@@ -84,6 +84,15 @@ Spots cars and people and tells how far away they are, from a camera and LiDAR.
 
 `PyTorch` `ONNX Runtime` `FastAPI` `Docker` `Prometheus` `Claude Code`
 
+### 🗺️ SLAM and Localization using TurtleBot — coursework lab, TU Dortmund
+
+Coursework lab at TU Dortmund. Built SLAM and localization for a TurtleBot — the robot maps its environment and localizes itself within it, so it can navigate autonomously.
+
+- SLAM: the TurtleBot builds a map of its environment while tracking its own position in it
+- Developed and tested in Gazebo, visualized in RViz; motion planning with MoveIt
+
+`ROS 2` `Python` `MoveIt` `Gazebo` `RViz`
+
 ### 💶 [Finance Agent](https://github.com/kovarthanmuthusamy/finance-agent) — private budgeting and forecasts
 
 Turns bank statements into budgets and cash-flow forecasts. All data stays on the user's computer.
