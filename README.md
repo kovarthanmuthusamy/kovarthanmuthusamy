@@ -16,7 +16,7 @@ can use. I build that bridge — from first prototype to a product running in pr
 <p align="center">
   <a href="https://linkedin.com/in/kovarthanam-muthusamy-4a8107253"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:kovarthanmuthusamy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://img.shields.io/badge/Flagship-PDN_Design_Assistant-181717?style=for-the-badge&logo=github&logoColor=white" alt="Flagship project"></a>
+  <a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://img.shields.io/badge/Flagship-Generative_AI_System-181717?style=for-the-badge&logo=github&logoColor=white" alt="Flagship project"></a>
 </p>
 
 ---
@@ -46,7 +46,7 @@ If your team has an AI problem worth solving, let's talk.
 
 ## Featured projects
 
-### 🔌 [PDN Design Assistant](https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis) — AI for circuit-board power design
+### 🔌 [Generative AI System for Engineering Analysis](https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis) — AI for circuit-board power design
 
 <a href="https://github.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis"><img src="https://raw.githubusercontent.com/kovarthanmuthusamy/Generative-AI-System-Engineering-Analysis/main/docs/images/assistant-design-view.png" width="760" alt="PDN design assistant: board, predicted impedance spectrum and impedance map"></a>
 
@@ -61,7 +61,7 @@ An AI model that predicts how a board's power supply behaves in milliseconds ins
 
 `PyTorch` `DDP` `VAE` `FastAPI` `Docker` `GitHub Actions` `MLflow` `Azure ML`
 
-### 🤖 [Multi-Agent AI Assistant for Circuit Design](https://github.com/kovarthanmuthusamy/AI-assistant-system-for-ECAD-software)
+### 🤖 [AI Assistant System for ECAD Software](https://github.com/kovarthanmuthusamy/AI-assistant-system-for-ECAD-software)
 
 Team project (8 people). Answers circuit-design questions, runs simulations from plain English and explains
 the results. I built the agent logic and most of the backend.
